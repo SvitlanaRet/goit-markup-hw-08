@@ -1,0 +1,18 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --third-text-color: #ffffff;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196f3;
+    --black-color: #000000;
+    --icons-color: #afb1b8;
+    --features-color: #f5f4fa;
+    --modal-overlay: rgba(0, 0, 0, 0.2);
+    --modal-background: #ffffff;
+    --footer-items-color: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+}
