@@ -77,3 +77,32 @@
     margin-right: 10px;
     fill: currentColor;
 }
+
+@media screen and (min-width: 350px) {
+    .header {
+        border-bottom: 1px solid #ececec;
+    }
+    .header__container {
+        
+    }
+    .header__logo {
+        color: var(--black-color);
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+        margin: 0;
+    }
+    .header__logo_color {
+        color: var(--accent-color);
+    }
+    .header__navigation {
+        display: none;
+    }
+    .header__contacts {
+        display: none;
+    }
+}
